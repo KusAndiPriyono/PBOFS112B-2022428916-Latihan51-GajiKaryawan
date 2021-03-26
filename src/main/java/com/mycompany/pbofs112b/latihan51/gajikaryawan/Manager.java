@@ -2,7 +2,11 @@ package com.mycompany.pbofs112b.latihan51.gajikaryawan;
 
 /**
  *
- * @author Kus Andi Priyono
+ * @author 
+ * Nama     : Kus Andi Priyono
+ * Kelas    : FS112B
+ * NIM      : 2022428916
+ * Deskripsi Program    : Program ini berisi untuk menampilkan Gaji Karyawan
  */
 public class Manager extends Karyawan {
     private int kehadiran;
