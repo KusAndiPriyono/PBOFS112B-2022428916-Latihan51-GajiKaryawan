@@ -20,19 +20,19 @@ public class GajiKaryawan {
         Scanner scan = new Scanner(System.in);
         
         System.out.println("====Program Perhitungan Gaji Karyawan====");
-        System.out.print("Masukan NIK \t: ");
+        System.out.println("Masukan NIK \t: ");
         m.setNik(scan.nextLine());
         
-        System.out.print("Masukan Nama \t: ");
+        System.out.println("Masukan Nama \t: ");
         m.setNama(scan.nextLine());
         
-        System.out.print("Masukan Golongan (1/2/3) \t: ");
+        System.out.println("Masukan Golongan (1/2/3) \t: ");
         m.setGolongan(scan.nextInt());
         
-        System.out.print("Masukan Jabatan (Manager/Kabag) \t: ");
+        System.out.println("Masukan Jabatan (Manager/Kabag) \t: ");
         m.setJabatan(scan.next());
         
-        System.out.print("Masukan Jumlah Kehadiran \t: ");
+        System.out.println("Masukan Jumlah Kehadiran \t: ");
         m.setKehadiran(scan.nextInt());
         
         System.out.println();
